@@ -10,4 +10,8 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     // Start is called before the first frame update
+    public void Restart()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

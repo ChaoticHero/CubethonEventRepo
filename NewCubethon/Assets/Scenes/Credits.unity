@@ -173,7 +173,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 800459955}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be43b682bb48d7042b2086d8e15c26a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 56130d0eb438f134e871ed075faab893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &800459958
@@ -474,8 +474,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 800459957}
-        m_TargetAssemblyTypeName: Credits, Assembly-CSharp
-        m_MethodName: quit
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
